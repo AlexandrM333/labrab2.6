@@ -67,7 +67,7 @@ if __name__ == '__main__':
         elif command == 'select':
             number2 = input("Выберите номер маршрута: ")
             number3 = int(number2.replace(':', ''))
-            count = 1
+            count = 0
 
             for route in routes:
                 number1 = route.get('number')
